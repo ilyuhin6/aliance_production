@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar {
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: 94px;
+}
+
+.header-logo {
+  padding: 25px 50px;
+}
+
+.header-nav {
+  display: flex;
+  flex-basis: 100%;
+  list-style: none;
+  padding: 0 50px;
+  margin: 0;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 50px;
+  color: inherit;
+}
+
+.header-phone {
+  flex-shrink: 0; /* Отвечает за сжатие если скукожился */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.header-phone-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: inherit;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fff;
+  background: #3a71d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 25px 60px;
+  gap: 10px;
+  border: none;
+}
+
+.header-button {
+  height: 100%;
+}
