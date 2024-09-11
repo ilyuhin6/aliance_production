@@ -160,3 +160,76 @@ body {
   font-size: 16px;
   line-height: 160%;
 }
+
+.section {
+  margin: 150px 0;
+}
+
+.section-title {
+  font-family: Bebas Neue;
+  color: #292d33;
+  font-size: 60px;
+  line-height: 120%;
+}
+
+.steps {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+
+.steps-item {
+  max-width: 330px;
+}
+
+.steps-num {
+  font-family: Bebas Neue;
+  color: #5c8ee5;
+  font-size: 48px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+}
+.steps-num::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #ebebf0;
+  margin-left: 30px;
+}
+
+.steps-title {
+  color: #292d33;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.steps-text {
+  color: #828a99;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.steps-link {
+  text-decoration: none;
+  color: #5c8ee5;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.steps-link::before {
+  content: "";
+  height: 1px;
+  width: 40px;
+  background: #5c8ee5;
+  margin-right: 20px;
+}
