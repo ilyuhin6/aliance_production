@@ -14,13 +14,13 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1421px;
   margin: auto;
 }
 
 .header {
   min-height: 100vh;
-  padding-top: 94px;
+  padding-top: 46px;
 }
 
 .header-image {
@@ -83,7 +83,7 @@ body {
 .header-nav-link {
   text-decoration: none;
   font-size: 16px;
-  margin-right: 50px;
+  margin-right: 53px;
   color: inherit;
 }
 
@@ -119,6 +119,7 @@ body {
 
 .header-button {
   height: 100%;
+  padding: 25px 44px;
 }
 
 .header-content {
@@ -132,16 +133,19 @@ body {
   background: #5c8ee5;
   width: 150px;
   height: 2px;
+  margin-top: 49px;
 }
 
 .header-title {
-  max-width: 1008px;
+  max-width: 1023px;
   font-family: Bebas Neue;
   color: #fff;
   font-size: 80px;
   font-weight: 400;
   line-height: 120%;
-  margin: 30px 0;
+  margin: 19px 0 41px;
+  word-spacing: 4.2px;
+  letter-spacing: 0.2px;
 }
 
 .header-text {
@@ -151,6 +155,7 @@ body {
   line-height: 160%;
   letter-spacing: 0%;
   margin-bottom: 50px;
+  word-spacing: 1.2px;
 }
 
 .header-features {
@@ -178,7 +183,7 @@ body {
 }
 
 .section {
-  margin: 150px 0;
+  margin: 133px 0;
 }
 
 .section-title {
@@ -186,6 +191,7 @@ body {
   color: #292d33;
   font-size: 60px;
   line-height: 120%;
+  margin: 25px 0 51px;
 }
 
 .steps {
@@ -220,8 +226,8 @@ body {
   font-size: 28px;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 36px;
+  margin-bottom: 12px;
 }
 
 .steps-text {
