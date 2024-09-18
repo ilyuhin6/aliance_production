@@ -14,8 +14,9 @@ body {
 }
 
 .container {
-  max-width: 1421px;
+  max-width: 1440px;
   margin: auto;
+  padding: 0px 10px;
 }
 
 .header {
