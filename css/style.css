@@ -442,13 +442,4 @@ body {
     line-height: 160%;
     color: #292d33;
   }
-  .address-svg {
-    width: 1.5rem;
-    height: 1.5rem;
-    fill: #5c8ee6;
-  }
-  .mail-svg {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
 }
