@@ -325,10 +325,10 @@ body {
   .navbar {
     height: 5rem;
   }
-}
-.header-button {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  .header-button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media (max-width: 992px) {
