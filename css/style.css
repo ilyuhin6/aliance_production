@@ -459,7 +459,7 @@ body {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(12px);
+    transform: rotate(48deg) translateY(11px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-49deg) translateY(-11px);
