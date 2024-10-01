@@ -17,12 +17,13 @@ const lightModeOff = (event) => {
 
 const openMenu = (event) => {      // функция открывания меню
   menu.classList.add('is-open');  // вешает класс is-open
-  mMenuToggle.classList.add('close-menu');
+  mMenuToggle.classList.add('close-menu');  // добавляем класс с крестиком
   document.body.style.overflow='hidden'; // запрещаем прокрутку
   lightModeOn();
 };
 
 const closeMenu = (event) => {      // функция закрывания меню
+  mMenuToggle.classList.remove('close-menu');
   menu.classList.remove('is-open');  // убирает класс is-open
   document.body.style.overflow=''; // возращаем прокрутку
   lightModeOff();
