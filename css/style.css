@@ -294,10 +294,19 @@ body {
   }
 }
 
-@media (max-width: 1460px) {
+@media (max-width: 1720px) {
   html {
     font-size: 14px;
   }
+}
+
+@media (max-width: 1520px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1460px) {
   .header-logo {
     padding: 2rem;
   }
@@ -316,6 +325,9 @@ body {
 }
 
 @media (max-width: 1250px) {
+  html {
+    font-size: 12px;
+  }
   .container {
     max-width: 70rem;
   }
