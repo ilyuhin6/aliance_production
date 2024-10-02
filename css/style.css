@@ -459,9 +459,32 @@ body {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(13px) translateX(1px);
+    transform: rotate(45deg) translateY(10px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-11px) translateX(-2px);
+    transform: rotate(-45deg) translateY(-13px);
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 40rem;
+  }
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-content {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+  .header-title {
+    font-size: 2rem;
+  }
+  .header-content {
+    padding-top: 2rem;
   }
 }
