@@ -199,8 +199,26 @@ body {
   padding: 0;
   margin-top: 100px;
 }
+.swiper-slide {
+  margin-right: 0 !important;
+}
+.slider-buttons {
+  display: flex;
+  height: 44px;
+}
+.slider-button-prev,
+.slider-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  cursor: pointer;
+}
 
 .header-faetures-item {
+  min-height: 100%;
   padding: 1.875rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
