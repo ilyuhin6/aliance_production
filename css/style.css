@@ -374,9 +374,6 @@ body {
   .slider-buttons {
     display: flex;
   }
-  .slider-buttons-steps {
-    display: flex;
-  }
 }
 
 @media (max-width: 992px) {
@@ -510,6 +507,9 @@ body {
   }
   .header-content {
     padding-top: 3rem;
+  }
+  .slider-buttons-steps {
+    display: flex;
   }
 }
 
