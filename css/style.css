@@ -28,7 +28,6 @@ body {
 }
 
 .header {
-  min-height: 100vh;
   padding-top: 2.875rem;
 }
 
@@ -199,11 +198,11 @@ body {
   padding: 0;
   margin-top: 100px;
 }
-.swiper-slide {
+/* .swiper-slide {
   margin-right: 0 !important;
-}
+} */
 .slider-buttons {
-  display: flex;
+  display: none;
   height: 44px;
 }
 .slider-button-prev,
@@ -221,10 +220,6 @@ body {
   min-height: 100%;
   padding: 1.875rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
-}
-
-.header-faetures-item:not(:last-child) {
-  border-right: none;
 }
 
 .header-features-text {
@@ -246,13 +241,14 @@ body {
 
 .steps {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   gap: 1.875rem;
 }
 
 .steps-item {
-  max-width: 20.625rem;
+  max-width: 16.625rem;
 }
 
 .steps-num {
@@ -358,6 +354,9 @@ body {
   .header-button {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .slider-buttons {
+    display: flex;
   }
 }
 
