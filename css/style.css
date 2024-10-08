@@ -216,6 +216,22 @@ body {
   cursor: pointer;
 }
 
+.slider-buttons-steps {
+  display: none;
+  justify-content: end;
+  height: 44px;
+}
+.slider-steps-button-prev,
+.slider-steps-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5c8ee5;
+  height: 100%;
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+}
+
 .header-faetures-item {
   min-height: 100%;
   padding: 1.875rem 3.125rem;
@@ -356,6 +372,9 @@ body {
     padding-right: 2rem;
   }
   .slider-buttons {
+    display: flex;
+  }
+  .slider-buttons-steps {
     display: flex;
   }
 }
