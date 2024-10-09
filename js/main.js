@@ -85,15 +85,15 @@ const swiperSteps = new Swiper('.swiper-steps', {
   breakpoints: {
     // when window width is >= 320px
     320: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
     // when window width is >= 1024px
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
   },
   });

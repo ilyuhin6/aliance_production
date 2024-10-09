@@ -235,6 +235,7 @@ body {
   min-height: 100%;
   padding: 1.875rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
+  margin: 0 !important;
 }
 
 .header-features-text {
@@ -370,9 +371,6 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .slider-buttons {
-    display: flex;
-  }
 }
 
 @media (max-width: 992px) {
@@ -496,6 +494,12 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-13px);
   }
+  .slider-buttons {
+    display: flex;
+  }
+  .slider-buttons-steps {
+    display: flex;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -506,9 +510,6 @@ body {
   }
   .header-content {
     padding-top: 3rem;
-  }
-  .slider-buttons-steps {
-    display: flex;
   }
 }
 
