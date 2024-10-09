@@ -40,7 +40,7 @@ mMenuToggle.addEventListener('click', (event) => {
 });
 
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.features-slider', {
 speed: 400,
 autoHeight: true,
 slidesPerView: 1,
