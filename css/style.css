@@ -318,6 +318,45 @@ body {
   margin-right: 1.25rem;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  position: relative;
+}
+
+.card-content {
+  padding: 2.5rem 3.125rem;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: #292d33;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 20.6rem;
+}
+
+.card-image {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
 @media (max-width: 1600px) {
   html {
     font-size: 16px;
@@ -500,6 +539,9 @@ body {
   .slider-buttons-steps {
     display: flex;
   }
+  .card {
+    flex-basis: 50%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -510,6 +552,9 @@ body {
   }
   .header-content {
     padding-top: 3rem;
+  }
+  .card {
+    flex-basis: 100%;
   }
 }
 
