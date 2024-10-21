@@ -681,4 +681,10 @@ body {
     position: absolute;
     bottom: 1rem;
   }
+  .header-title {
+    font-size: 4rem;
+  }
+  .btn-header {
+    width: 100%;
+  }
 }
