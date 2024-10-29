@@ -516,10 +516,15 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  filter: grayscale(100%);
+  transition: filter 0.2s;
+}
+
+.clients-logo-item:hover {
+  filter: grayscale(0);
 }
 
 .clients-logo {
-  /* max-width: 100%; */
   width: 70px;
   height: 70px;
 }
