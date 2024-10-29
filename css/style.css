@@ -398,7 +398,7 @@ body {
   z-index: -1;
 }
 
-.cards-brand {
+/* .cards-brand {
   display: flex;
   flex-wrap: wrap;
 }
@@ -414,7 +414,7 @@ body {
 }
 .card-brand-content {
   padding: 3.125rem;
-}
+}                                Эта верстка на флексах
 
 .card-brand-title {
   font-weight: 400;
@@ -430,7 +430,6 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
-  /* margin-bottom: 20.6rem; */
 }
 
 .card-brand-image {
@@ -444,6 +443,56 @@ body {
 
 .card-brand:hover {
   border-color: #5c8ee5;
+} */
+
+.trademark-cards {
+  display: flex;
+}
+
+.trademark-card {
+  flex-basis: 50%;
+  border: 1px solid #ebebf0;
+  text-decoration: none;
+  transition: border 0.3s;
+  padding: 3.125rem;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: 180px 1fr 1fr;
+  grid-template-rows: auto 2fr;
+  grid-template-areas:
+    "logo title title"
+    "logo text text";
+}
+
+.trademark-card-logo {
+  grid-area: logo;
+  width: 100%;
+}
+
+.trademark-card-title {
+  grid-area: title;
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  font-weight: 400;
+}
+
+.trademark-card-text {
+  grid-area: text;
+  margin-top: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.trademark-card:hover {
+  border-color: #5c8ee5;
+}
+.trademark-card:hover .trademark-card-title {
+  color: #5c8ee5;
 }
 
 @media (max-width: 1600px) {
@@ -498,6 +547,9 @@ body {
   .header-button {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .trademark-card {
+    grid-template-columns: auto auto;
   }
 }
 
@@ -631,8 +683,8 @@ body {
   .card {
     flex-basis: 50%;
   }
-  .card-brand {
-    flex-basis: 100%;
+  .trademark-cards {
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -686,5 +738,11 @@ body {
   }
   .btn-header {
     width: 100%;
+  }
+  .trademark-card {
+    grid-template-areas:
+      "logo title"
+      "text text";
+    grid-template-columns: 7.5rem auto;
   }
 }
