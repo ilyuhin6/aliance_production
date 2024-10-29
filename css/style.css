@@ -326,7 +326,7 @@ body {
   margin-bottom: 1.25rem;
 }
 
-.steps-link {
+.button-link {
   text-decoration: none;
   color: #5c8ee5;
   font-size: 1rem;
@@ -335,7 +335,7 @@ body {
   display: flex;
   align-items: center;
 }
-.steps-link::before {
+.button-link::before {
   content: "";
   height: 1px;
   width: 2.5rem;
@@ -344,7 +344,7 @@ body {
   transition: width 0.2s;
 }
 
-.steps-link:hover::before {
+.button-link:hover::before {
   width: 3.75rem;
 }
 
@@ -398,53 +398,6 @@ body {
   z-index: -1;
 }
 
-/* .cards-brand {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card-brand {
-  display: flex;
-  align-items: center;
-  flex-basis: 50%;
-  justify-content: space-between;
-  border: 1px solid #ebebf0;
-  text-decoration: none;
-  transition: border 0.3s;
-}
-.card-brand-content {
-  padding: 3.125rem;
-}                                Эта верстка на флексах
-
-.card-brand-title {
-  font-weight: 400;
-  font-size: 1.75rem;
-  line-height: 140%;
-  color: #292d33;
-  margin-top: 0;
-  margin-bottom: 10px;
-  transition: color 0.3s;
-}
-
-.card-brand-text {
-  font-size: 1rem;
-  line-height: 160%;
-  color: #828a99;
-}
-
-.card-brand-image {
-  order: -1;
-  padding-left: 3.125rem;
-}
-
-.card-brand:hover .card-brand-title {
-  color: #5c8ee5;
-}
-
-.card-brand:hover {
-  border-color: #5c8ee5;
-} */
-
 .trademark-cards {
   display: flex;
 }
@@ -493,6 +446,82 @@ body {
 }
 .trademark-card:hover .trademark-card-title {
   color: #5c8ee5;
+}
+
+.founder {
+  position: relative;
+  min-height: 41.25rem;
+}
+
+.founder-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.founder-content {
+  max-width: 45rem;
+}
+
+.founder-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+
+.clients-content {
+  flex-basis: 50%;
+}
+
+.clients-list {
+  list-style-type: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.clients-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 15;
+}
+
+.clients-logo-item {
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.clients-logo {
+  /* max-width: 100%; */
+  width: 70px;
+  height: 70px;
 }
 
 @media (max-width: 1600px) {
@@ -550,6 +579,12 @@ body {
   }
   .trademark-card {
     grid-template-columns: auto auto;
+  }
+  .founder-content {
+    max-width: 35rem;
+  }
+  .clients-content {
+    flex-basis: 55%;
   }
 }
 
@@ -686,6 +721,9 @@ body {
   .trademark-cards {
     flex-direction: column;
   }
+  .clients-wrapper {
+    flex-direction: column;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -699,6 +737,11 @@ body {
   }
   .card {
     flex-basis: 100%;
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
   }
 }
 
@@ -744,5 +787,11 @@ body {
       "logo title"
       "text text";
     grid-template-columns: 7.5rem auto;
+  }
+  .clients-list {
+    columns: 1;
+  }
+  .clients-logo-item {
+    flex-basis: 50%;
   }
 }
