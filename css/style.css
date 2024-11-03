@@ -769,6 +769,9 @@ body {
   .clients-content {
     flex-basis: 55%;
   }
+  .cta-image {
+    width: 38%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -910,6 +913,9 @@ body {
   .clients-wrapper {
     flex-direction: column;
   }
+  .cta-image {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -979,5 +985,15 @@ body {
   }
   .clients-logo-item {
     flex-basis: 50%;
+  }
+  .input-group-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .cta-form-footer {
+    flex-direction: column;
+  }
+  .cta-form-button {
+    width: 100%;
   }
 }
