@@ -707,6 +707,43 @@ body {
   color: #828a99;
 }
 
+.footer-top {
+  padding: 3.125rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 12.5rem;
+  height: 3.75rem;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  color: #292d33;
+  gap: 10px;
+}
+
+.footer-info-address,
+.footer-info-email {
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.footer-phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 160%;
+  text-decoration: underline;
+  color: #292d33;
+}
+
 @media (max-width: 1600px) {
   html {
     font-size: 16px;
