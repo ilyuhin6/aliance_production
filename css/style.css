@@ -763,6 +763,10 @@ body {
   padding: 3.125rem 0;
 }
 
+.footer-menu-wrapper {
+  min-width: 11rem;
+}
+
 .footer-menu-title {
   margin-top: 0;
   margin-bottom: 1.875rem;
@@ -777,6 +781,7 @@ body {
   margin: 0;
   padding-left: 1.25rem;
   list-style: none;
+  min-width: 8rem;
 }
 
 .footer-menu-column-2 {
@@ -896,6 +901,8 @@ body {
   .cta-image {
     width: 38%;
   }
+  .footer-menu-column-2 {
+    min-width: 43rem;
 }
 
 @media (max-width: 992px) {
