@@ -882,10 +882,10 @@ body {
 .modal-close {
   position: absolute;
   display: block;
-  top: 40px;
-  right: 50px;
-  width: 50px;
-  height: 50px;
+  top: 2.5rem;
+  right: 3.125rem;
+  width: 3.125rem;
+  height: 3.125rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1237,5 +1237,11 @@ body {
   }
   .cta-form-button {
     width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .modal-dialog {
+    max-width: 25rem;
   }
 }
