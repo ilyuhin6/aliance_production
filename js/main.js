@@ -127,6 +127,7 @@ const swiperSteps = new Swiper('.swiper-steps', {
 const modal = document.querySelector('.modal')
 const modalToggle = document.querySelectorAll('[data-toggle=modal]');
 const modalClose = document.querySelector('.modal-close');
+
 console.log(modalToggle);
 modalToggle.forEach((element) => {
   element.addEventListener('click', (event) => {
@@ -138,5 +139,9 @@ modalClose.addEventListener('click', (event) => {
 event.preventDefault();
 modal.classList.remove('is-open');
 });
-
+modal.addEventListener('click', (event) => {
+  if (event.target === modal) {
+      modal.classList.remove('is-open');
+  }
+});
   
