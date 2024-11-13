@@ -231,9 +231,9 @@ body {
   line-height: 160%;
 }
 
-.breadcrumb-link::after {
+.breadcrumb-list li:not(:first-child)::before {
   content: "—";
-  color: inherit;
+  color: #828a99;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 160%;
