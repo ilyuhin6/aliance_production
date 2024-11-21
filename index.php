@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/swiper-bundle.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -403,53 +401,43 @@
                     </h2>
                     <ul class="clients-list">
                         <li class="clients-list-item">
-                            <img src="./img/product svg/him.svg" alt="Химические производства" width="30" height="30"
-                                class="clients-list-icon">
+                            <img src="./img/product svg/him.svg" alt="Химические производства" width="30" height="30" class="clients-list-icon">
                             Химические производства
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/car.svg" alt="Автомойки" width="30" height="30"
-                                class="clients-list-icon">
+                            <img src="./img/product svg/car.svg" alt="Автомойки" width="30" height="30" class="clients-list-icon">
                             Автомойки
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/eat.svg" alt="Пищевая продукция" width="30" height="30"
-                                class="clients-list-icon">
+                            <img src="./img/product svg/eat.svg" alt="Пищевая продукция" width="30" height="30" class="clients-list-icon">
                             Пищевая продукция
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/brush.svg" alt="Лаки и краски" width="30" height="30"
-                                class="clients-list-icon">
+                            <img src="./img/product svg/brush.svg" alt="Лаки и краски" width="30" height="30" class="clients-list-icon">
                             Лаки и краски
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/cosmetic.svg" alt="Косметические средства" width="30"
-                                height="30" class="clients-list-icon">
+                            <img src="./img/product svg/cosmetic.svg" alt="Косметические средства" width="30" height="30" class="clients-list-icon">
                             Косметические средства
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/car-cosm.svg" alt="Автомобильная косметика" width="30"
-                                height="30" class="clients-list-icon">
+                            <img src="./img/product svg/car-cosm.svg" alt="Автомобильная косметика" width="30" height="30" class="clients-list-icon">
                             Автомобильная косметика
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/shirt.svg" alt="Косметика по уходу за одеждой" width="30"
-                                height="30" class="clients-list-icon">
+                            <img src="./img/product svg/shirt.svg" alt="Косметика по уходу за одеждой" width="30" height="30" class="clients-list-icon">
                             Косметика по уходу за одеждой
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/boots.svg" alt="Косметика по уходу за обувью" width="30"
-                                height="30" class="clients-list-icon">
+                            <img src="./img/product svg/boots.svg" alt="Косметика по уходу за обувью" width="30" height="30" class="clients-list-icon">
                             Косметика по уходу за обувью
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/bricks.svg" alt="Строительные материалы" width="30" height="30"
-                                class="clients-list-icon">
+                            <img src="./img/product svg/bricks.svg" alt="Строительные материалы" width="30" height="30" class="clients-list-icon">
                             Строительные материалы
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/product svg/more.svg" alt="И многих других" width="30" height="30"
-                                class="clients-list-icon">
+                            <img src="./img/product svg/more.svg" alt="И многих других" width="30" height="30" class="clients-list-icon">
                             И многих других
                         </li>
                     </ul>
@@ -709,7 +697,8 @@
             <div class="footer-wrapper">
                 <div class="footer-legal">
                     <p class="footer-copyright">
-                        &copy 2022 «Aliance Production». Все права защищены.
+                        &copy
+                        <?php echo date('Y') ?> «Aliance Production». Все права защищены.
                     </p>
                     <a href="#" class="footer-policy">Политики конфиденциальности</a>
                 </div>
