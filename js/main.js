@@ -147,23 +147,6 @@ document.addEventListener('keyup', (event) => {
 
 
 
+//Validation Form
 
-// const modalToggle = document.querySelectorAll('[data-toggle=modal]');
-// const modalClose = document.querySelector('.modal-close');
-// console.log(modalToggle);
-// modalToggle.forEach((element) => {
-//   element.addEventListener('click', (event) => {
-//     event.preventDefault();
-//     modal.classList.add('is-open');
-//   });
-// });
-// modalClose.addEventListener('click', (event) => {
-// event.preventDefault();
-// modal.classList.remove('is-open');
-// });
-// modal.addEventListener('click', (event) => {
-//   if (event.target === modal) {
-//       modal.classList.remove('is-open');
-//   }
-// });
   

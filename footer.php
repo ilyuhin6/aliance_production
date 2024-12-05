@@ -192,12 +192,12 @@
     <form action="./handler.php" method="POST" class="modal-form">
       <div class="input-group-wrapper input-group-vertical">
         <div class="input-group modal-input-group">
-          <input id="modal-user-name" type="text" name="username" class="input modal-input" placeholder=" " />
+          <input id="modal-user-name" type="text" name="username" class="input modal-input" placeholder="" />
           <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
         </div>
         <!-- /.input-group -->
         <div class="input-group modal-input-group">
-          <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input" placeholder=" " />
+          <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input" placeholder="" />
           <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
         </div>
         <!-- /.input-group -->
@@ -221,6 +221,7 @@
 </div>
 <!-- /.modal -->
 
+<script src="./js/just-validate.production.min.js"></script>
 <script src="./js/swiper-bundle.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
