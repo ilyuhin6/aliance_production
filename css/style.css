@@ -767,8 +767,17 @@ body {
   outline: 0;
 }
 
-.input:focus ~ .input-group-label,
+/* .input:focus ~ .input-group-label,
 .input:not(:placeholder-shown) .input:not(:focus) ~ .input-group-label {
+  top: -0.5rem;
+  left: 1.25rem;
+  font-size: 0.625rem;
+  background-color: inherit;
+  padding: 0 0.625rem;
+} */
+
+.input:focus ~ .input-group-label,
+.input:not(:placeholder-shown) ~ .input-group-label {
   top: -0.5rem;
   left: 1.25rem;
   font-size: 0.625rem;
