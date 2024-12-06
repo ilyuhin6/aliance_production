@@ -767,15 +767,6 @@ body {
   outline: 0;
 }
 
-/* .input:focus ~ .input-group-label,
-.input:not(:placeholder-shown) .input:not(:focus) ~ .input-group-label {
-  top: -0.5rem;
-  left: 1.25rem;
-  font-size: 0.625rem;
-  background-color: inherit;
-  padding: 0 0.625rem;
-} */
-
 .input:focus ~ .input-group-label,
 .input:not(:placeholder-shown) ~ .input-group-label {
   top: -0.5rem;
@@ -783,6 +774,21 @@ body {
   font-size: 0.625rem;
   background-color: inherit;
   padding: 0 0.625rem;
+}
+
+.input.is-invalid {
+  border: 1px dashed red;
+}
+
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: inherit;
+  padding: 0 0.5rem;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  display: inline-block;
 }
 
 .cta-form-footer {

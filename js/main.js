@@ -148,5 +148,46 @@ document.addEventListener('keyup', (event) => {
 
 
 //Validation Form
-
+const forms = document.querySelectorAll('form');  //Собираем все формы с тегом form
+forms.forEach(form => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: 'is-invalid',
+});
+validation
+  .addField('[name = username]', [
+    {
+      rule: 'required',
+      errorMessage: 'Укажите Имя',
+    },
+    {
+      rule: 'maxLength',
+      value: 10,
+      errorMessage: 'Максимально 30 символов',
+    },
+  ])
+  .addField('[name = userphone]', [
+    {
+      rule: 'required',
+      errorMessage: 'Укажите телефон',
+    },
+  ])
+  .onSuccess((event) => {
+    const thisForm = event.target; //Наша форма
+    const formData = new FormData(thisForm); //Даные из нашей формы
+    const ajaxSend = (formData) => {
+      fetch(thisForm.getAttribute('action'), {
+        method: thisForm.getAttribute('method'),
+        body: formData,
+      }).then((response) => {
+        if (response.ok) {
+          thisForm.reset();
+          alert('Заявка отправлена!');
+        } else {
+          alert('Ошибка! Текст ошибки: ' . response.statusText);
+        }
+      });      
+    };
+    ajaxSend(formData);
+  });
+});
   

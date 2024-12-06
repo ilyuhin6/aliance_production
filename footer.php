@@ -12,12 +12,12 @@
         </p>
         <div class="input-group-wrapper">
           <div class="input-group">
-            <input id="user-name" name="username" type="text" class="input" placeholder=" " required maxlength="10" />
+            <input id="user-name" name="username" type="text" class="input" placeholder=" " required />
             <label class="input-group-label" for="user-name">Имя</label>
           </div>
           <!-- /.input-group -->
           <div class="input-group">
-            <input id="user-phone" name="userphone" type="tel" class="input" placeholder=" " required maxlength="12" />
+            <input id="user-phone" name="userphone" type="tel" class="input" placeholder=" " required />
             <label class="input-group-label" for="user-phone">Номер телефона</label>
           </div>
           <!-- /.input-group -->
@@ -192,12 +192,12 @@
     <form action="./handler.php" method="POST" class="modal-form">
       <div class="input-group-wrapper input-group-vertical">
         <div class="input-group modal-input-group">
-          <input id="modal-user-name" type="text" name="username" class="input modal-input" placeholder=" " />
+          <input id="modal-user-name" type="text" name="username" class="input modal-input" placeholder=" " required />
           <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
         </div>
         <!-- /.input-group -->
         <div class="input-group modal-input-group">
-          <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input" placeholder=" " />
+          <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input" placeholder=" " required />
           <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
         </div>
         <!-- /.input-group -->
