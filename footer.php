@@ -17,7 +17,7 @@
           </div>
           <!-- /.input-group -->
           <div class="input-group">
-            <input id="user-phone" name="userphone" type="tel" class="input" placeholder=" " required />
+            <input id="user-phone" name="userphone" type="tel" class="input phone-mask" placeholder=" " required />
             <label class="input-group-label" for="user-phone">Номер телефона</label>
           </div>
           <!-- /.input-group -->
@@ -197,7 +197,7 @@
         </div>
         <!-- /.input-group -->
         <div class="input-group modal-input-group">
-          <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input" placeholder=" " required />
+          <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input phone-mask" placeholder=" " required />
           <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
         </div>
         <!-- /.input-group -->
