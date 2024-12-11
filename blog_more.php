@@ -123,7 +123,7 @@
         +7 (499) 686-10-14
       </a>
     </div>
-    <button class="navbar-button button" data-toggle="modal">
+    <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
       <svg class="button-icon">
         <use href="./img/sprite.svg#phone"></use>
       </svg>

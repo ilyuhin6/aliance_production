@@ -123,7 +123,7 @@
                 +7 (499) 686-10-14
             </a>
         </div>
-        <button class="navbar-button button" data-toggle="modal">
+        <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
             <svg class="button-icon">
                 <use href="./img/sprite.svg#phone"></use>
             </svg>
@@ -144,7 +144,7 @@
                     факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих
                     паттернов поведения.
                 </p>
-                <button class="button btn-header" data-toggle="modal">Подробнее о компании</button>
+                <button class="button btn-header" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
             </div>
             <!-- /.header-content -->
 
