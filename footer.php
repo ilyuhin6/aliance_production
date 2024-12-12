@@ -222,15 +222,16 @@
 <!-- /.modal -->
 
 <div class="modal" id="alert-modal">
-  <div class="modal-dialog">
-    <h2 class="modal-title">Спасибо!</h2>
-    <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+  <div class="modal-dialog alerrt-modal-dialog">
+    <img src="./img/thanks.png" alt="спасибо" class="alert-modal-image" width="285" height="245">
+    <h2 class="modal-title alert-modal-title">Спасибо за заявку!</h2>
+    <a href="#" class="modal-close alert-modal-close" data-toggle="modal" data-target="#alert-modal">
       <img src="./img/svg/close.svg" alt="" class="close-icon" width="24" height="24">
     </a>
-    <p class="modal-text">
-      Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
-      поможем даже в самых сложных случаях!
+    <p class="modal-text alert-modal-text">
+      Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
     </p>
+    <a href="./index.php" class="button modal-form-button alert-modal-link">Вернуться на главную</a>
   </div>
   <!-- /.modal-dialog -->
 </div>

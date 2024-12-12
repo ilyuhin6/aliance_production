@@ -1011,6 +1011,23 @@ body {
   margin-bottom: 20px;
 }
 
+.alerrt-modal-dialog {
+  max-width: 26rem;
+}
+
+.alert-modal-image {
+  margin-bottom: 1.25rem;
+}
+
+.alert-modal-title {
+  font-weight: 600;
+}
+
+.alert-modal-link {
+  text-decoration: none;
+  text-align: center;
+}
+
 .modal-text {
   font-style: normal;
   font-weight: 400;
