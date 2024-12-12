@@ -124,61 +124,27 @@ const swiperSteps = new Swiper('.swiper-steps', {
   });
 
 // Modal START
-// let currentModal;   // текущие модальное окно
-// let modalDialog;    // белое модальное окно
-// let alertModal = document.querySelector('#alert-modal'); // Окно с предупреждением
+let currentModal;   // текущие модальное окно
+let modalDialog;    // белое модальное окно
+let alertModal = document.querySelector('#alert-modal'); // Окно с предупреждением
 
-// const modalButtons = document.querySelectorAll('[data-toggle=modal]');  // переключатели модальных окон
-// modalButtons.forEach((button) => {
-//   button.addEventListener('click', (event) => { /* клик по переключателю */
-//     event.preventDefault();
-//     currentModal = document.querySelector(button.dataset.target); // Определяем текущие модальное окно
-//     currentModal.classList.toggle('is-open');  // открываем текущие окно
-//     modalDialog = currentModal.querySelector('.modal-dialog');  // назначаем диалоговое окно
-//     currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
-//       if (!event.composedPath().includes(modalDialog)) {  // если клик в пустую область (не диалог)
-//         currentModal.classList.remove('is-open');  // Закрываем окно
-//       }
-//     })
-//   });
-// });
-// document.addEventListener('keyup', (event) => {
-//     if (event.key == 'Escape' && currentModal.classList.contains('is-open')) {
-//       currentModal.classList.toggle('is-open');
-//     }
-//   });
-
-let currentModal; // текущее модальное окно 
-  let modalDialog;  // белое диалоговое окно
-  let alertModal = document.querySelector("#alert-modal"); // окно с предупреждением
-
-  const modalButtons = document.querySelectorAll("[data-toggle=modal]"); // переключатели мадальных окон
-  modalButtons.forEach(button => {
-    /* клик по переключателю */
-    button.addEventListener("click", (event) => { 
-      event.preventDefault();
-      /* опредиляем текущее открытое окно */
-      currentModal = document.querySelector(button.dataset.target);
-      /* открываем текущее окно */
-      currentModal.classList.toggle("is-open");
-      /* назначаем диалоговое окно */
-      modalDialog = currentModal.querySelector(".modal-dialog");
-      /* отслеживаем клик по окну и пустым областям */
-      currentModal.addEventListener("click", event => {
-        /* если клик в пустую область (не деалог) */
-        if (!event.composedPath().includes(modalDialog)) {
-          /* закрываем окно */
-          currentModal.classList.remove("is-open");
-        }
-      });
-    });
+const modalButtons = document.querySelectorAll('[data-toggle=modal]');  // переключатели модальных окон
+modalButtons.forEach((button) => {
+  button.addEventListener('click', (event) => { /* клик по переключателю */
+    event.preventDefault();
+    currentModal = document.querySelector(button.dataset.target); // Определяем текущие модальное окно
+    currentModal.classList.toggle('is-open');  // открываем текущие окно
+    modalDialog = currentModal.querySelector('.modal-dialog');  // назначаем диалоговое окно
+    currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
+      if (!event.composedPath().includes(modalDialog)) {  // если клик в пустую область (не диалог)
+        currentModal.classList.remove('is-open');  // Закрываем окно
+      }
+    })
   });
-  /* ловим событие нажатия на кнопки */
-    document.addEventListener("keyup", (event) => {
-      /* проверяем, что это Escape и текущее окно открыто */
-    if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
-      /* закрываем текущее окно */
-      currentModal.classList.toggle("is-open");
+});
+document.addEventListener('keyup', (event) => {
+    if (event.key == 'Escape' && currentModal.classList.contains('is-open')) {
+      currentModal.classList.toggle('is-open');
     }
   });
 
