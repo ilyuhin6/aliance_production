@@ -274,91 +274,12 @@
     </section>
     <!-- /.section -->
 
-    <section class="section prodiction">
-        <div class="container">
-            <div class="separator separator-section-steps"></div>
-            <h2 class="section-title">Контрактное производство</h2>
-            <div class="cards">
-                <a href="#" class="card">
-                    <div class="card-content">
-                        <h3 class="card-title">Автомобильная химия</h3>
-                        <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение
-                            форм
-                            воздействия.</p>
-                    </div>
-                    <img src="./img/production/avto-him.png" alt="автохимия" class="card-image">
-                </a>
-                <a href="#" class="card">
-                    <div class="card-contenet">
-                        <div class="card-content">
-                            <h3 class="card-title">Бытовая химия</h3>
-                            <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии
-                                функционально разнесены на независимые элементы.</p>
-                        </div>
-                    </div>
-                    <img src="./img/production/bit-him.png" alt="Бытовая химия" class="card-image">
-                </a>
-                <a href="#" class="card">
-                    <div class="card-content">
-                        <h3 class="card-title">Дезинфицирующие средства</h3>
-                        <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
-                    </div>
-                    <img src="./img/production/dezinfect.png" alt="Дезинфицирующие средства" class="card-image">
-                </a>
-                <a href="#" class="card">
-                    <div class="card-content">
-                        <h3 class="card-title">Пищевые аэрозоли</h3>
-                        <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение
-                            форм
-                            воздействия.</p>
-                    </div>
-                    <img src="./img/production/dezinfect.png" alt="Пищевые аэрозоли" class="card-image">
-                </a>
-                <a href="#" class="card">
-                    <div class="card-content">
-                        <h3 class="card-title">Косметическая продукция</h3>
-                        <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
-                    </div>
-                    <img src="./img/production/avto-him.png" alt="Косметическая продукция" class="card-image">
-                </a>
-                <a href="#" class="card">
-                    <div class="card-content">
-                        <h3 class="card-title">Краски аэрозольные</h3>
-                        <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии
-                            функционально разнесены на независимые элементы.</p>
-                    </div>
-                    <img src="./img/production/bit-him.png" alt="Краски аэрозольные" class="card-image">
-                </a>
-            </div>
-        </div>
-    </section>
+    <?php
+    $block_title = 'Контрактное производство';
+    include_once('./template-parts/contracts-block.php'); ?>
 
-    <section class="section trademark">
-        <div class="container">
-            <div class="separator separator-section-steps"></div>
-            <h2 class="section-title">собственные торговые марки</h2>
-            <div class="trademark-cards">
-                <div class="trademark-card">
-                    <img src="./img/svg/ag-tech.svg" alt="AGTECH" class="trademark-card-logo" width="140" height="121">
-                    <!-- <svg class="trademark-card-logo">
-                        <use href="./img/sprite.svg#AGTECH"></use>
-                    </svg> -->
-                    <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
-                    <p class="trademark-card-text">Для современного мира разбавленное изрядной долей эмпатии,
-                        рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-                </div>
-                <div class="trademark-card">
-                    <img src="./img/svg/logo-blue.svg" alt="AP" class="trademark-card-logo" width="103" height="140">
-                    <!-- <svg class="trademark-card-logo">
-                        <use href="./img/sprite.svg#AP"></use>
-                    </svg> -->
-                    <h3 class="trademark-card-title">Автохимия AP</h3>
-                    <p class="trademark-card-text">Для современного мира разбавленное изрядной долей эмпатии,
-                        рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php $block_title = 'Собственные торговые марки';
+    include_once('./template-parts/trademarks-block.php'); ?>
 
     <section class="section founder">
         <img src="./img/founder.jpg" alt="Основатель" class="founder-photo">
