@@ -11,6 +11,22 @@
       flex-direction: column-reverse;
     }
   }
+
+  @media (max-width: 630px) {
+    .legend-photo-img {
+      display: block;
+      width: 500px;
+      height: 650px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .legend-photo-img {
+      display: block;
+      width: 400px;
+      height: 550px;
+    }
+  }
 </style>
 
 
@@ -32,7 +48,7 @@
 
         <ul class="clients-list">
           <li class="clients-list-item">
-            <img src="<?= $legend_product_photo; ?>" alt="Химические производства" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/him.svg" alt="Химические производства" width="30" height="30" class="clients-list-icon">
             Химические производства
           </li>
           <li class="clients-list-item">
@@ -58,7 +74,7 @@
         </ul>
 
       </div>
-      <img src="./img/legend/legend-product.jpg" alt="наше производство">
+      <img src="<?= $legend_product_photo; ?>" alt="наше производство" class="legend-photo-img">
     </div>
   </div>
 </section>

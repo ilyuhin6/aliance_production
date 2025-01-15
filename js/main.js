@@ -123,6 +123,32 @@ const swiperSteps = new Swiper('.swiper-steps', {
     },
   });
 
+
+  const researchSlider = new Swiper('.research-slider', {
+    speed: 300,
+    loop: true,
+    spaceBetween: 5,
+    slidesPerView: 4,
+    navigation: {
+      nextEl: '.research-button-next',
+      prevEl: '.research-button-prev',
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+      },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 2,
+      },
+      // when window width is >= 1024px
+      1024: {
+        slidesPerView: 2,
+      },
+    },
+  });
+
 // Modal START
 let currentModal;   // текущие модальное окно
 let modalDialog;    // белое модальное окно

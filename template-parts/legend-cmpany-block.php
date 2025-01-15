@@ -14,7 +14,7 @@
     }
 
     .legend-content {
-      max-width: 63rem;
+      max-width: 40rem;
     }
   }
 
