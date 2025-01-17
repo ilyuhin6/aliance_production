@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./css/swiper-bundle.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
-  <title><?= $page_title; ?> - Aliance Production</title>
+  <title>Автомобильная химия - Aliance Production</title>
 </head>
 
 <body>
@@ -18,13 +18,13 @@
   <div class="mobile-menu">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./about.html">О компании</a>
+        <a class="mobile-menu-link" href="./about.hphp">О компании</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./contracts.php">Контрактное производство</a>
+        <a class="mobile-menu-link" href="./">Контрактное производство</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="./product-avtohim.php">Автомобильная химия</a>
+            <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
           </li>
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -44,7 +44,7 @@
         </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./trademarks.php">Собственные торговые марки</a>
+        <a class="mobile-menu-link" href="">Собственные торговые марки</a>
       </li>
       <li class="mobile-menu-nav-item">
         <a class="mobile-menu-link" href="">Новости</a>
@@ -100,13 +100,13 @@
     </a>
     <ul class="header-nav">
       <li class="header-nav-item">
-        <a class="header-nav-link" href="./about.php">О компании</a>
+        <a href="./" class="header-nav-link" href="./about.php">О компании</a>
       </li>
       <li class="header-nav-item">
-        <a class="header-nav-link" href="./contracts.php">Контрактное производство</a>
+        <a class="header-nav-link" href="./">Контрактное производство</a>
       </li>
       <li class="header-nav-item">
-        <a class="header-nav-link" href="./trademarks.php">Собственные торговые марки</a>
+        <a class="header-nav-link" href="">Собственные торговые марки</a>
       </li>
       <li class="header-nav-item">
         <a class="header-nav-link" href="">Новости</a>
@@ -133,17 +133,31 @@
 
 
 
-  <header class="header <?= $header_style; ?>">
+  <header class="header header-page  header-content-product">
     <div class="container">
       <div class="header-content-page">
         <div class="separator"></div>
         <h1 class="header-title header-title-page">
-          <?= $page_title; ?>
+          Автомобильная химия
         </h1>
         <ul class="breadcrumb-list">
           <li class="breadcrumb-item"><a href="/" class="breadcrumb-link">Главная</a></li>
-          <li class="breadcrumb-item"><?= $page_title; ?></li>
+          <li class="breadcrumb-item"><a href="./contract_product.php" class="breadcrumb-link">Контрактное
+              производство</a></li>
+          <li class="breadcrumb-item">Автомобильная химия</li>
         </ul>
+        <img src="./img/header-page/avto-him.png" alt="Автомобильная химия" class="image-content-product">
       </div>
     </div>
   </header>
+
+
+
+
+
+
+
+
+
+
+  <?php include_once('./footer.php'); ?>

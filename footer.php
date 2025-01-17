@@ -87,7 +87,7 @@
         <h2 class="footer-menu-title">Контрактное производство</h2>
         <ul class="footer-menu-list footer-menu-column-2">
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link">
+            <a href="./product-avtohim.php" class="footer-menu-link">
               Автомобильная химия
             </a>
           </li>

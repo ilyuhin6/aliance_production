@@ -6,9 +6,26 @@
     margin-bottom: 1.875rem;
   }
 
+  .legend-product {
+    position: relative;
+  }
+
+  .legend-photo-img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   @media (max-width: 1250px) {
     .legend-product-wrapper {
       flex-direction: column-reverse;
+    }
+
+    .legend-photo-img {
+      position: relative;
     }
   }
 
@@ -18,6 +35,7 @@
       width: 500px;
       height: 650px;
     }
+
   }
 
   @media (max-width: 520px) {
@@ -26,6 +44,7 @@
       width: 400px;
       height: 550px;
     }
+
   }
 </style>
 
@@ -74,7 +93,8 @@
         </ul>
 
       </div>
-      <img src="<?= $legend_product_photo; ?>" alt="наше производство" class="legend-photo-img">
+      <img src="<?= $legend_product_photo; ?>" alt="наше производство" class="<?= $legend_photo_style; ?> legend-photo">
     </div>
   </div>
+  <!-- <img src="<?= $legend_product_photo; ?>" alt="наше производство" class="legend-photo-img"> -->
 </section>

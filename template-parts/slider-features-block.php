@@ -11,6 +11,10 @@
     margin-top: -15rem;
   }
 
+  .slider-to-product {
+    margin-top: -4rem;
+  }
+
   @media (max-width: 992px) {
 
     .slider-button-prev,
@@ -22,9 +26,9 @@
 
 <div class="container">
   <!-- Основной блок слайдера -->
-  <div class="swiper features-slider">
+  <div class="swiper features-slider <?= $slider_to_product; ?>">
     <!-- Обертка слайдера -->
-    <ul class="swiper-wrapper header-features">
+    <ul class=" swiper-wrapper header-features">
       <!-- Слайды -->
       <li class="swiper-slide header-faetures-item"><svg class="time-svg" width="36" height="36">
           <use href="./img/sprite.svg#time"></use>
