@@ -124,12 +124,12 @@
         <h2 class="footer-menu-title">Собственные марки</h2>
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link">
+            <a href="./avtohim-ag.php" class="footer-menu-link">
               Автохимия AG-Tech
             </a>
           </li>
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link">
+            <a href="./avtohim-ag.php" class="footer-menu-link">
               Автохимия AP
             </a>
           </li>
@@ -138,7 +138,7 @@
       <div class="footer-menu-wrapper">
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
-            <a href="/about.html" class="footer-menu-link footer-menu-link-bold">
+            <a href="./about.php" class="footer-menu-link footer-menu-link-bold">
               О компании
             </a>
           </li>
