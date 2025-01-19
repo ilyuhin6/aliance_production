@@ -112,7 +112,7 @@
         <a class="header-nav-link" href="./blog.php">Новости</a>
       </li>
       <li class="header-nav-item">
-        <a class="header-nav-link" href="">Контакты</a>
+        <a class="header-nav-link" href="./contact.php">Контакты</a>
       </li>
     </ul>
     <div class="header-phone">
