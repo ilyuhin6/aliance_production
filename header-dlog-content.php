@@ -55,18 +55,12 @@
     </ul>
     <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
     <div class="mobile-info">
-      <!-- <svg class="address-svg">
-            <use href="./img/sprite.svg#address"></use>
-        </svg> -->
       <img src="./img/svg/address.svg" alt="address">
       <address class="mobile-info-address">
         г. Мосвка, Холодильный пер. 4к1с8
       </address>
     </div>
     <div class="mobile-info">
-      <!-- <svg class="mail-svg">
-            <use href="./img/sprite.svg#mail"></use>
-        </svg> -->
       <img src="./img/svg/mail.svg" alt="mail">
       <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">
         a.dragunov@tdaliance.ru
@@ -74,15 +68,9 @@
     </div>
     <div class="mobile-social-link">
       <a href="#">
-        <!-- <svg class="vk-svg">
-                <use href="./img/sprite.svg#vk"></use>
-            </svg> -->
         <img src="./img/svg/vk.svg" alt="vk">
       </a>
       <a href="#">
-        <!-- <svg class="inst-svg">
-                <use href="./img/sprite.svg#inst"></use>
-            </svg> -->
         <img src="./img/svg/inst.svg" alt="insta">
       </a>
     </div>
