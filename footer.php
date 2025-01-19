@@ -143,7 +143,7 @@
             </a>
           </li>
           <li class="footer-menu-item ">
-            <a href="#" class="footer-menu-link footer-menu-link-bold">
+            <a href="./blog.php" class="footer-menu-link footer-menu-link-bold">
               Новости
             </a>
           </li>
