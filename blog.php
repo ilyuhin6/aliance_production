@@ -46,7 +46,7 @@ include_once('./header-page.php');
   <div class="container">
     <ul class="section-blog-list wraper-blog">
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -56,7 +56,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post2.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -66,7 +66,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post2.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -76,7 +76,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -86,7 +86,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -96,7 +96,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post2.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -106,7 +106,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post2.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -116,7 +116,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -126,7 +126,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post2.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
@@ -136,7 +136,7 @@ include_once('./header-page.php');
         </a>
       </li>
       <li class="section-blog-items blog-item">
-        <a href="#" class="blog-card">
+        <a href="./blog-content.php" class="blog-card">
           <img src="./img/blog/image-post.jpg" alt="" class="blog-card-image" width="705" height="400">
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-tex">
