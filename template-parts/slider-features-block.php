@@ -75,7 +75,7 @@
         <!-- <svg class="prev-svg" width="36" height="36">
                             <use href="./img/sprite.svg#prev"></use>
                         </svg> -->
-        <img src="./img/legend/left.png" alt="prev">
+        <img src="./img/legend/left.svg" alt="prev">
       </div>
       <div class="slider-button-next">
         <!-- <svg class="next-svg" width="36" height="36">

@@ -5,6 +5,8 @@
     justify-content: space-between;
   }
 
+
+
   @media (max-width: 1250px) {
     .legend-wrapper {
       display: flex;
@@ -33,7 +35,7 @@
   <div class="container">
 
     <div class="legend-wrapper founder-content-wrapper">
-      <img src="<?= $legend_photo; ?>" alt="логотип компании" class="legend-photo">
+      <img src="<?= $legend_photo; ?>" alt="логотип компании" class="legend-photo" width="480" height="480">
       <div class="founder-content legend-content">
         <div class="separator separator-section-steps"></div>
         <h2 class="section-title">
