@@ -8,74 +8,111 @@
         </h2>
         <ul class="clients-list">
           <li class="clients-list-item">
-            <img src="./img/product svg/him.svg" alt="Химические производства" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/him.svg" alt="иконка производства" width="30" height="30" class="clients-list-icon">
             Химические производства
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/car.svg" alt="Автомойки" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/car.svg" alt=" иконка Автомойки" width="30" height="30" class="clients-list-icon">
             Автомойки
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/eat.svg" alt="Пищевая продукция" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/eat.svg" alt="иконка продукция" width="30" height="30" class="clients-list-icon">
             Пищевая продукция
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/brush.svg" alt="Лаки и краски" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/brush.svg" alt="иконка Лаки и краски" width="30" height="30" class="clients-list-icon">
             Лаки и краски
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/cosmetic.svg" alt="Косметические средства" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/cosmetic.svg" alt="иконка Косметические средства" width="30" height="30" class="clients-list-icon">
             Косметические средства
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/car-cosm.svg" alt="Автомобильная косметика" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/car-cosm.svg" alt="иконка Автомобильная косметика" width="30" height="30" class="clients-list-icon">
             Автомобильная косметика
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/shirt.svg" alt="Косметика по уходу за одеждой" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/shirt.svg" alt="Иконка Косметика по уходу за одеждой" width="30" height="30" class="clients-list-icon">
             Косметика по уходу за одеждой
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/boots.svg" alt="Косметика по уходу за обувью" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/boots.svg" alt="Иконка Косметика по уходу за обувью" width="30" height="30" class="clients-list-icon">
             Косметика по уходу за обувью
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/bricks.svg" alt="Строительные материалы" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/bricks.svg" alt="Иконка Строительные материалы" width="30" height="30" class="clients-list-icon">
             Строительные материалы
           </li>
           <li class="clients-list-item">
-            <img src="./img/product svg/more.svg" alt="И многих других" width="30" height="30" class="clients-list-icon">
+            <img src="./img/product svg/more.svg" alt="Просто Иконка" width="30" height="30" class="clients-list-icon">
             И многих других
           </li>
         </ul>
       </div>
       <div class="clients-logo-list">
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
+
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <<picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+            </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
         </a>
         <a href="#" class="clients-logo-item">
-          <img src="./img/client.png" alt="" class="clients-logo">
+          <picture>
+            <source type="image/webp" srcset="./img/client.webp">
+            <source type="image/jpeg" srcset="./img/client.png">
+            <img src="./img/client.png" alt="Клиенты" class="clients-logo">
+          </picture>
         </a>
       </div>
     </div>

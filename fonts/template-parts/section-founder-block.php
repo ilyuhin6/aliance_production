@@ -1,14 +1,10 @@
 <section class="section founder">
-  <picture>
-    <source type="image/webp" srcset="./img/founder.webp">
-    <source type="image/jpeg" srcset="./img/founder.jpg">
-    <img src="./img/founder.jpg" alt="Основатель" class="founder-photo">
-  </picture>
+  <img src="./img/founder.jpg" alt="Основатель" class="founder-photo">
   <div class="container">
     <div class="founder-content-wrapper">
       <div class="founder-content">
         <div class="separator separator-section-steps"></div>
-        <h2 class="section-title">Отношение к делу и к к./img/founderлиентам</h2>
+        <h2 class="section-title">Отношение к делу и к клиентам</h2>
         <p class="founder-text">
           Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает,
           что

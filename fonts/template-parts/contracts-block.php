@@ -16,11 +16,7 @@
             форм
             воздействия.</p>
         </div>
-        <picture>
-          <source type="image/webp" srcset="./img/production/avto-him.webp">
-          <source type="image/jpeg" srcset="./img/production/avto-him.png">
-          <img src="./img/production/avto-him.png" alt="автохимия" class="card-image">
-        </picture>
+        <img src="./img/production/avto-him.png" alt="автохимия" class="card-image">
       </a>
       <a href="#" class="card">
         <div class="card-contenet">
@@ -30,22 +26,14 @@
               функционально разнесены на независимые элементы.</p>
           </div>
         </div>
-        <picture>
-          <source type="image/webp" srcset="./img/production/bit-him.webp">
-          <source type="image/jpeg" srcset="./img/production/bit-him.png">
-          <img src="./img/production/bit-him.png" alt="Бытовая химия" class="card-image">
-        </picture>
+        <img src="./img/production/bit-him.png" alt="Бытовая химия" class="card-image">
       </a>
       <a href="#" class="card">
         <div class="card-content">
           <h3 class="card-title">Дезинфицирующие средства</h3>
           <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
         </div>
-        <picture>
-          <source type="image/webp" srcset="./img/production/dezinfect.webp">
-          <source type="image/jpeg" srcset="./img/production/dezinfect.png">
-          <img src="./img/production/dezinfect.png" alt="Дезинфицирующие средства" class="card-image">
-        </picture>
+        <img src="./img/production/dezinfect.png" alt="Дезинфицирующие средства" class="card-image">
       </a>
       <a href="#" class="card">
         <div class="card-content">
@@ -54,22 +42,14 @@
             форм
             воздействия.</p>
         </div>
-        <picture>
-          <source type="image/webp" srcset="./img/production/dezinfect.webp">
-          <source type="image/jpeg" srcset="./img/production/dezinfect.png">
-          <img src="./img/production/dezinfect.png" alt="Дезинфицирующие средства" class="card-image">
-        </picture>
+        <img src="./img/production/dezinfect.png" alt="Пищевые аэрозоли" class="card-image">
       </a>
       <a href="#" class="card">
         <div class="card-content">
           <h3 class="card-title">Косметическая продукция</h3>
           <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
         </div>
-        <picture>
-          <source type="image/webp" srcset="./img/production/avto-him.webp">
-          <source type="image/jpeg" srcset="./img/production/avto-him.png">
-          <img src="./img/production/avto-him.png" alt="автохимия" class="card-image">
-        </picture>
+        <img src="./img/production/avto-him.png" alt="Косметическая продукция" class="card-image">
       </a>
       <a href="#" class="card">
         <div class="card-content">
@@ -77,11 +57,7 @@
           <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии
             функционально разнесены на независимые элементы.</p>
         </div>
-        <picture>
-          <source type="image/webp" srcset="./img/production/bit-him.webp">
-          <source type="image/jpeg" srcset="./img/production/bit-him.png">
-          <img src="./img/production/bit-him.png" alt="Бытовая химия" class="card-image">
-        </picture>
+        <img src="./img/production/bit-him.png" alt="Краски аэрозольные" class="card-image">
       </a>
     </div>
   </div>

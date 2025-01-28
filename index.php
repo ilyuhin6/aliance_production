@@ -179,7 +179,11 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <a href="#" class="swiper-slide blog-card">
-                        <img src="./img/blog/image-post.jpg" alt="" class="blog-card-image">
+                        <picture>
+                            <source type="image/webp" srcset="./img/blog/image-post.webp">
+                            <source type="image/jpeg" srcset="./img/blog/image-post.jpg">
+                            <img src="./img/blog/image-post.jpg" alt="картиника поста" class="blog-card-image">
+                        </picture>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
                         <p class="blog-card-tex">
                             Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию,
@@ -187,7 +191,12 @@
                         </p>
                     </a>
                     <a href="#" class="swiper-slide blog-card">
-                        <img src="./img/blog/image-post2.jpg" alt="" class="blog-card-image">
+                        <picture>
+                            <source type="image/webp" srcset="./img/blog/image-post2.webp">
+                            <source type="image/jpeg" srcset="./img/blog/image-post2.jpg">
+                            <img src="./img/blog/image-post2.jpg" alt="картинка поста" class="blog-card-image">
+                        </picture>
+
                         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
                         <p class="blog-card-tex">
                             Сложно сказать, почему элементы политического процесса функционально разнесены на
@@ -195,7 +204,11 @@
                         </p>
                     </a>
                     <a href="#" class="swiper-slide blog-card">
-                        <img src="./img/blog/image-post.jpg" alt="" class="blog-card-image">
+                        <picture>
+                            <source type="image/webp" srcset="./img/blog/image-post.webp">
+                            <source type="image/jpeg" srcset="./img/blog/image-post.jpg">
+                            <img src="./img/blog/image-post.jpg" alt="картиника поста" class="blog-card-image">
+                        </picture>
                         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
                         <p class="blog-card-tex">
                             Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию,

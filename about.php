@@ -15,6 +15,7 @@ include_once('./template-parts/slider-features-block.php');
 
 $legend_product_title = 'Наше производство';
 $legend_product_photo = './img/legend/legend-product.jpg';
+$legend_photo_style = 'legend-photo-img';
 include_once('./template-parts/legend-product-block.php');
 // Производство компании
 
