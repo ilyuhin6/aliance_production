@@ -3,24 +3,24 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <a href="../blog-content.php" class="swiper-slide">
+      <a href="./blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post.jpg" alt="" width="705" height="405">
       </a>
-      <a href="../blog-content.php" class="swiper-slide">
+      <a href="./blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post2.jpg" alt="" width="705" height="405">
       </a>
-      <a href="../blog-content.php" class="swiper-slide">
+      <a href="./blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post.jpg" alt="" width="705" height="405">
       </a>
-      <a href="../blog-content.php" class="swiper-slide">
+      <a href="./blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post2.jpg" alt="" width="705" height="405">
       </a>
-      <a href="../blog-content.php" class="swiper-slide">
+      <a href="./blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post2.jpg" alt="" width="705" height="405">
       </a>
     </div>
     <div class="blog-slider-footer">
-      <a href="../blog.php" class="button-link">Весь блог</a>
+      <a href="./blog.php" class="button-link">Весь блог</a>
       <div class="blog-buttons primary-buttons-wrapper">
         <div class="research-button-prev primary-button-prev">
           <!-- <svg class="prev-svg" width="36" height="36">
