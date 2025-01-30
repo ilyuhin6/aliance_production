@@ -3,19 +3,19 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <a href="#" class="swiper-slide">
+      <a href="../blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post.jpg" alt="" width="705" height="405">
       </a>
-      <a href="#" class="swiper-slide">
+      <a href="../blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post2.jpg" alt="" width="705" height="405">
       </a>
-      <a href="#" class="swiper-slide">
+      <a href="../blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post.jpg" alt="" width="705" height="405">
       </a>
-      <a href="#" class="swiper-slide">
+      <a href="../blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post2.jpg" alt="" width="705" height="405">
       </a>
-      <a href="#" class="swiper-slide">
+      <a href="../blog-content.php" class="swiper-slide">
         <img src="./img/blog/image-post2.jpg" alt="" width="705" height="405">
       </a>
     </div>

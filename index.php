@@ -178,7 +178,7 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <a href="#" class="swiper-slide blog-card">
+                    <a href="./blog-content.php" class="swiper-slide blog-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/image-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/image-post.jpg">
@@ -190,7 +190,7 @@
                             в равной степени предоставлены...
                         </p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card">
+                    <a href="./blog-content.php" class="swiper-slide blog-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/image-post2.webp">
                             <source type="image/jpeg" srcset="./img/blog/image-post2.jpg">
@@ -203,7 +203,7 @@
                             независимые элементы. Безусловно, высокотехнологичная...
                         </p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card">
+                    <a href="./blog-content.php" class="swiper-slide blog-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/image-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/image-post.jpg">
@@ -217,7 +217,7 @@
                     </a>
                 </div>
                 <div class="blog-slider-footer">
-                    <a href="#" class="button-link">Весь блог</a>
+                    <a href="./blog.php" class="button-link">Весь блог</a>
                     <div class="blog-buttons primary-buttons-wrapper">
                         <div class="blog-button-prev primary-button-prev">
                             <!-- <svg class="prev-svg" width="36" height="36">
