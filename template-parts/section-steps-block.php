@@ -5,7 +5,7 @@
 </style>
 
 
-<section class="section section-light">
+<section class="section section-light section-steps">
   <div class="container">
     <div class="separator separator-section-steps"></div>
     <h2 class="section-title">схема работы</h2>

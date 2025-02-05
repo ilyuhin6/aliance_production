@@ -163,7 +163,7 @@
   <!-- /.container -->
   <hr class="footer-seporator" />
   <div class="container">
-    <div class="footer-wrapper">
+    <div class="footer-wrapper footer-bottom-titri">
       <div class="footer-legal">
         <p class="footer-copyright">
           &copy

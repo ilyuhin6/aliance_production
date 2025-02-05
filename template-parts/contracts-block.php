@@ -1,4 +1,4 @@
-<section class="section prodiction">
+<section class="section prodiction section-product">
   <div class="container">
     <!-- <div class="separator separator-section-steps"></div> -->
     <!-- <h2 class="section-title">Контрактное производство</h2> -->

@@ -1,4 +1,4 @@
-<section class="section trademark">
+<section class="section trademark section-trademark">
   <div class="container">
     <!-- <div class="separator separator-section-steps"></div> -->
     <!-- <h2 class="section-title">собственные торговые марки</h2> -->

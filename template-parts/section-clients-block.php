@@ -3,7 +3,7 @@
     <div class="separator separator-section-steps"></div>
     <div class="clients-wrapper">
       <div class="clients-content">
-        <h2 class="section-title">
+        <h2 class="section-title section-title-clients">
           Производим аэрозольную продукцию для разных сфер
         </h2>
         <ul class="clients-list">
@@ -59,11 +59,11 @@
 
         </a>
         <a href="#" class="clients-logo-item">
-          <<picture>
+          <picture>
             <source type="image/webp" srcset="./img/client.webp">
             <source type="image/jpeg" srcset="./img/client.png">
             <img src="./img/client.png" alt="Клиенты" class="clients-logo">
-            </picture>
+          </picture>
         </a>
         <a href="#" class="clients-logo-item">
           <picture>
