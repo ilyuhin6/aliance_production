@@ -47,7 +47,7 @@ body {
 .header-image::before {
   content: "";
   position: absolute;
-  background: rgba(41, 45, 51, 0.6);
+  background: rgba(41, 45, 51, 0.85);
   top: 0;
   left: 0;
   width: 100%;

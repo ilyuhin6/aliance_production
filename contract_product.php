@@ -4,20 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <meta property="og:title" content="Производство химии | Название компании">
-  <meta property="og:description" content="Производство химической продукции высокого качества: промышленная химия, химические реактивы, сырье и компоненты. Изготовление бытовой химии, моющих средств, удобрений и полимеров.">
-  <meta property="og:image" content="https://ilyuhin-web.ru/img/header-bg.jpeg">
-  <meta property="og:url" content="https://ilyuhin-web.ru/">
-  <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/swiper-bundle.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
-  <title><?= $page_title; ?> - Aliance Production</title>
+  <title>Контрактное производство - Aliance Production</title>
 </head>
 
 <body>
@@ -28,10 +21,10 @@
         <a class="mobile-menu-link" href="./about.html">О компании</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./contracts.php">Контрактное производство</a>
+        <a class="mobile-menu-link" href="./">Контрактное производство</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="./product-avtohim.php">Автомобильная химия</a>
+            <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
           </li>
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -51,10 +44,10 @@
         </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./trademarks.php">Собственные торговые марки</a>
+        <a class="mobile-menu-link" href="">Собственные торговые марки</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./blog.php">Новости</a>
+        <a class="mobile-menu-link" href="">Новости</a>
       </li>
       <li class="mobile-menu-nav-item">
         <a class="mobile-menu-link" href="">Контакты</a>
@@ -110,16 +103,16 @@
         <a class="header-nav-link" href="./about.php">О компании</a>
       </li>
       <li class="header-nav-item">
-        <a class="header-nav-link" href="./contracts.php">Контрактное производство</a>
+        <a class="header-nav-link" href="./">Контрактное производство</a>
       </li>
       <li class="header-nav-item">
-        <a class="header-nav-link" href="./trademarks.php">Собственные торговые марки</a>
+        <a class="header-nav-link" href="">Собственные торговые марки</a>
       </li>
       <li class="header-nav-item">
-        <a class="header-nav-link" href="./blog.php">Новости</a>
+        <a class="header-nav-link" href="">Новости</a>
       </li>
       <li class="header-nav-item">
-        <a class="header-nav-link" href="./contact.php">Контакты</a>
+        <a class="header-nav-link" href="">Контакты</a>
       </li>
     </ul>
     <div class="header-phone">
@@ -140,17 +133,28 @@
 
 
 
-  <header class="header <?= $header_style; ?>">
+  <header class="header header-page">
     <div class="container">
       <div class="header-content-page">
         <div class="separator"></div>
         <h1 class="header-title header-title-page">
-          <?= $page_title; ?>
+          Контрактное производство
         </h1>
         <ul class="breadcrumb-list">
           <li class="breadcrumb-item"><a href="/" class="breadcrumb-link">Главная</a></li>
-          <li class="breadcrumb-item"><?= $page_title; ?></li>
+          <li class="breadcrumb-item">Контрактное производство</li>
         </ul>
       </div>
     </div>
   </header>
+
+
+
+
+
+
+
+
+
+
+  <?php include_once('./footer.php'); ?>
