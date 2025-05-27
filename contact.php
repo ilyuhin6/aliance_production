@@ -5,7 +5,16 @@ include_once('./header-page.php');
 // header
 ?>
 
-<div class="section">
+
+
+
+
+
+
+
+
+
+<div class="section" style="margin: 0;">
   <div class="container">
     <div class="footer-top">
       <svg class="footer-logo">

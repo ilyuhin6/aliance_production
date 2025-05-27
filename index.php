@@ -59,6 +59,9 @@
             <li class="mobile-menu-nav-item">
                 <a class="mobile-menu-link" href="./contact.php">Контакты</a>
             </li>
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="./enter.php">Вход</a>
+            </li>
         </ul>
         <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
         <div class="mobile-info">
@@ -120,6 +123,9 @@
             </li>
             <li class="header-nav-item">
                 <a class="header-nav-link" href="./contact.php">Контакты</a>
+            </li>
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="./enter.php">Вход</a>
             </li>
         </ul>
         <div class="header-phone">
